@@ -6,13 +6,16 @@ const Header = () => {
     <>
       <div>
         <div className="flex gap-6 bg-red-700 p-4 justify-center">
-          <Link href="/" className="text-lg">
+          <Link href="/" className="text-lg text-yellow-300">
             Home
           </Link>
-          <Link href="/about" className="text-lg">
+          <Link href="/products" className="text-lg text-yellow-300">
+            Products
+          </Link>
+          <Link href="/about" className="text-lg text-yellow-300">
             About
           </Link>
-          <Link href="/contact" className="text-lg">
+          <Link href="/contact" className="text-lg text-yellow-300">
             Contact
           </Link>
         </div>
